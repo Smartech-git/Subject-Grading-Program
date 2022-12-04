@@ -16,12 +16,15 @@ using namespace std;
 
 int main(){
 
-    string Name, Dept, Course, RegNo;
+    string First_name, Last_name, Dept, Course, RegNo;
     double Score; // range from 0 - 100
     char Grade;
 
-    cout << "NAME: " ;
-    cin >> Name;
+    cout << "FIRST NAME: " ;
+    cin >> First_name;
+
+     cout << "LAST NAME: " ;
+    cin >> Last_name;
 
     cout << "DEPARTMENT: ";
     cin >> Dept;
@@ -51,12 +54,12 @@ int main(){
         Grade = 'D';
     } else if (Score >= 40 && Score <= 44 ){
         Grade = 'E';
-    } else{
+    } else {
         Grade = 'F';
     }
     
    cout << endl << endl; 
-   cout << "NAME: " << Name << "  |  " << "REG NO: " << RegNo << "  |  " << "DEPT: " << Dept << endl;
+   cout << "NAME: " << First_name + ' ' + Last_name << "  |  " << "REG NO: " << RegNo << "  |  " << "DEPT: " << Dept << endl;
    cout << "COURSE: " << Course << "  |  " << "SCORE: " << Score << "  |  " << "GRADE: " << Grade << endl;
 
 }
