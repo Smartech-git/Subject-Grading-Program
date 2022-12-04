@@ -5,8 +5,6 @@
                 Primary inputs: course name and course score.
                 Secondary inputs: student name, registration number and department.
 
-LAST UPDATE: Sat| 3rd | dec | 2022
-
 */
 
 
